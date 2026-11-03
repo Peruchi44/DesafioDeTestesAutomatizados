@@ -9,5 +9,4 @@ public class DtaApplication {
     public static void main(String[] args) {
         SpringApplication.run(DtaApplication.class, args);
     }
-
 }

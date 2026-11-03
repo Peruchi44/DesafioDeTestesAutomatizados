@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "status",
+      "dispositivoId",
+      "setor",
+      "consumoKwh",
+      "emissaoEstimadaKgCo2",
+      "timestamp"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "dispositivoId": {
+        "type": "string"
+      },
+      "setor": {
+        "type": "string"
+      },
+      "consumoKwh": {
+        "type": "number"
+      },
+      "emissaoEstimadaKgCo2": {
+        "type": "number"
+      },
+      "timestamp": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}
